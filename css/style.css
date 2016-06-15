@@ -1,0 +1,15 @@
+body {
+  background-color: #ffcccc;
+}
+
+#yep {
+  font-family: cursive;
+}
+
+#world {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 5em;
+  text-shadow: 0px 0px 30px #ffaaaa;
+  margin-top: 5px;
+}
