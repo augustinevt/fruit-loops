@@ -78,6 +78,8 @@ function elementFromChar(legend, ch) {
 function charFromElement(element) {
   if (element === null) {
     return " ";
+  } else if (element.originChar === "o") {
+    return "<span style='color:" + element.color + "'>" + "&copy;" + "</span>";
   } else {
     return "<span style='color:" + element.color + "'>" + element.originChar + "</span>";
   }
@@ -228,7 +230,7 @@ function printSequence() {
   } else {
     console.log("finished");
   }
-}, 34);
+}, 78);
 }
 
 printSequence();
